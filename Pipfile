@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+jupyterlab = "*"
+jupyterlab-execute-time = "*"
+jupyterlab-code-formatter = "*"
+autopep8 = "*"
+black = "*"
+isort = "*"
+numpy = "*"
+matplotlib = "*"
+scipy = "*"
+scikit-learn = "*"
+pandas = "*"
+tqdm = "*"
+plotly = "*"
+plotly-express = "*"
+seaborn = "*"
+pip-licenses = "*"
+streamlit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.9"
+
+[scripts]
+jn = "jupyter notebook"
+jl = "jupyter lab"
+licenses = "pip-licenses"
+st = "streamlit run app.py"
